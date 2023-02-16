@@ -53,9 +53,13 @@ aside:hover{
 .desplegar{
     transform: translateX(-100%);
 }
+
+/* ancho del escroll */
 aside::-webkit-scrollbar{
     width: 8px;
 }
+
+/* color y borde redondo del scroll */
 aside::-webkit-scrollbar-thumb{
     background-color: #909090;
     border-radius: 5px;
@@ -82,5 +86,10 @@ aside::-webkit-scrollbar-thumb{
 }
 h2{
     padding: 10px 20px;
-    color: #aaaaaa;
+    color: #f1f1f1;
+    font-weight: normal;
+}
+
+.circle {
+    border-radius: 50%;
 }
